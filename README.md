@@ -2,7 +2,7 @@
 Set Up
 
 1. Clone the Repository:
-# git clone https://github.com/PayalGupta2000/E-Commerce-Application
+git clone https://github.com/PayalGupta2000/E-Commerce-Application
 
 2.Create a virtual environment to install dependencies in and activate it:
 # Python -m venv env
