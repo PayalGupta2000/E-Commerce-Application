@@ -4,18 +4,17 @@ Set Up
 1. Clone the Repository:
 git clone https://github.com/PayalGupta2000/E-Commerce-Application
 
-2.Create a virtual environment to install dependencies in and activate it:
-# Python -m venv env
-# .\env\scripts\activate
+# Create a virtual environment to install dependencies in and activate it:
+ Python -m venv env
+ .\env\scripts\activate
 
 
-3. Then install the dependencies:
-# (env)$ pip install -r requirements.txt
+# Then install the dependencies:
+ (env)$ pip install -r requirements.txt
 Note: The (env) prefix in the prompt indicates the terminal session is operating in the virtual environment.
 
-
-4. Run the Development Server:
-# (env)$ python manage.py runserver
+# Run the Development Server:
+(env)$ python manage.py runserver
 
 # Features-
 
