@@ -11,12 +11,12 @@ git clone https://github.com/PayalGupta2000/E-Commerce-Application
 
 # Then install the dependencies:
  (env)$ pip install -r requirements.txt
-Note: The (env) prefix in the prompt indicates the terminal session is operating in the virtual environment.
+The (env) prefix in the prompt indicates the terminal session is operating in the virtual environment.
 
 # Run the Development Server:
 (env)$ python manage.py runserver
 
-# Features-
+Features-
 
 # Signup-
 You can  signup with provide following credentials- username,password,email,phone number and address. 
@@ -36,14 +36,14 @@ You must be signed in to place an order.
 Provide user, product, and quantity. The total price will be automatically calculated based on the product price and quantity.
  Order Creation API Url- 127.0.0.1:8000/orders
 
-# Additional Information
+Additional Information
 # Token Handling- 
 After login,for create an order you have to pass the token like this-
 Authorization  Token <Your token here>
 
 # Migration-
 before run the server,apply migrations.
-# python manage.py migrate
+python manage.py migrate
 
 
 
